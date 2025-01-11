@@ -10,19 +10,19 @@ namespace ShoppingPlace.Core.BaseClass.BaseDtoes
     public class BaseClaseGeneralDto<TKey> : BaseEntityDto<TKey>
     {
 
-        [Required(ErrorMessage = ErrorMessage.DataIsRequired)]
-        [MaxLength(500)]
-        [Display(Name = LabelName.Title)]
-        public string Title { get; set; }
-        [Required(ErrorMessage = ErrorMessage.DataIsRequired)]
-        [MaxLength(50)]
-        [Display(Name = LabelName.Code)]
+        //[Required(ErrorMessage = ErrorMessage.DataIsRequired)]
+        //[MaxLength(500)]
+        //[Display(Name = LabelName.Title)]
+        //public string Title { get; set; }
+        //[Required(ErrorMessage = ErrorMessage.DataIsRequired)]
+        //[MaxLength(50)]
+        //[Display(Name = LabelName.Code)]
 
-        public string Code { get; set; }
+        //public string Code { get; set; }
 
-        [MaxLength(int.MaxValue)]
-        [Display(Name = LabelName.Description)]
+        //[MaxLength(int.MaxValue)]
+        //[Display(Name = LabelName.Description)]
 
-        public string Description { get; set; }
+        //public string Description { get; set; }
     }
 }
